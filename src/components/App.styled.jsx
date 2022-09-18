@@ -9,12 +9,8 @@ export const AppContainer = styled.div`
   color: #010101;
 `;
 
-export const P = styled.p`
-  margin: 5px;
-`;
-
 export const Div = styled.div`
   display: flex;
   flex-direction: column;
-  box-shadow: 1px 2px 9px #f4aab9;
+ 
 `;
