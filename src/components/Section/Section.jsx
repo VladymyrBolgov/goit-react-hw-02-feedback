@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Section = ({ title, children }) => {
   return (
     <Div>
-       <H2>{title}</H2> 
+       {title ? <H2>{title}</H2> : ''}
       {children}
     </Div>
   );
